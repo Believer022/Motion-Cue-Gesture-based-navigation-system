@@ -4,13 +4,12 @@
   "description": "Gesture-based presentation control system",
   "main": "index.js",
   "scripts": {
-    "start": "python3 gp.py"
+    "start": "cd \"hand gesture final\" && python3 gp.py"
   },
   "dependencies": {
     "streamlit": "^1.32.2",
     "streamlit-lottie": "^0.0.5",
-    "cvzone": "^1.6.1",
-    "mediapipe": "^0.10.9",
-    "simplejson": "^3.19.2"
+    "simplejson": "^3.19.2",
+    "mediapipe": "^0.10.9"
   }
 }
